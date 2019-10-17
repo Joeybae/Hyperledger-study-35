@@ -11,6 +11,10 @@ app.get('/', function(req, res){
   return res.send('/page')
 });
 
+app.get('/', function(req, res){
+  return res.send('/add')
+});
+
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 
 /*
